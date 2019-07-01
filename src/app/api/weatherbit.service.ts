@@ -39,7 +39,7 @@ export class WeatherbitService {
         vLat = 27.4833;
       break;
     }
-    return this.http.get<wbitdata>(this.urlService + vLat + "101&lon="+vLong+"&days=15&units=" + utemp + "&key=a6514ef14da74157b9a1822a45ea30e3");
+    return this.http.get<wbitdata>(this.urlService + vLat + "101&lon="+vLong+"&days=15&units=" + utemp + "&key=29d273d0388741e2a78d622f60a4982a");
 
   }
 

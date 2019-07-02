@@ -11,7 +11,7 @@ declare var jQuery: any;
   selector: 'app-forecast',
   templateUrl: './forecast.component.html',
   styleUrls: ['./forecast.component.css']
-})
+});
 export class ForecastComponent implements OnInit {
   donut: ElementRef;
   chart = Chart;

@@ -1,5 +1,5 @@
 import { weatherdata } from "./weatherdata";
-// this is a change
+// this is a change lunes
 export interface wbitdata {
     data: weatherdata[];
     city_name:string;

@@ -5,4 +5,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .body-content{
     background-color: rgb(181, 153, 41);
 }
-*{ padding: 20px; }
+*{ padding: 20px; font-size: 60px !important }

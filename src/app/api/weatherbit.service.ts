@@ -4,8 +4,9 @@ import { wbitdata } from '../models/wbitdata';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
-
-
+//sdfsdf
+//sdfsfd 
+// dfdf 
 // ** command-do
 @Injectable({
   providedIn: 'root'

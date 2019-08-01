@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeatherbitService {
   private urlService = 'https://api.weatherbit.io/v2.0/forecast/daily?lat=';
-
+  // miercoles
   constructor(private http: HttpClient)  { }
   getWeather(cname: string, utemp: string): Observable<wbitdata> {
     let vLong: any;

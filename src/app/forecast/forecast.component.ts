@@ -107,7 +107,7 @@ export class ForecastComponent implements OnInit {
         error => console.error(error)
       });
   }
-  // martes
+  // martes testing
   public LoadChartGraph(Title: string, labe: string[], num: number[]) {
     this.canvas = document.getElementById('myChart');
     this.ctx = this.canvas.getContext('2d');

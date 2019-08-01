@@ -6,13 +6,13 @@ import { Component, OnInit } from '@angular/core';
 
 
 
-
+// ** command
 @Injectable({
   providedIn: 'root'
 })
 export class WeatherbitService {
   private urlService = 'https://api.weatherbit.io/v2.0/forecast/daily?lat=';
-
+  // miercoles
   constructor(private http: HttpClient)  { }
   getWeather(cname: string, utemp: string): Observable<wbitdata> {
     let vLong: any;

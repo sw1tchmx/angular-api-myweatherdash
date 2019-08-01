@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 
-
+// ** command
 @Injectable({
   providedIn: 'root'
 })
